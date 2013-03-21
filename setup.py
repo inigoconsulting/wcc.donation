@@ -29,6 +29,7 @@ setup(name='wcc.donation',
           'plone.app.dexterity',
           'plone.namedfile [blobs]',
           'collective.grok',
+          'collective.z3cform.datagridfield',
           # -*- Extra requirements: -*-
       ],
       extras_require={

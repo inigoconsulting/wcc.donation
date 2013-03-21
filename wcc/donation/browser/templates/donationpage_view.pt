@@ -1,45 +1,156 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
-      xmlns:tal="http://xml.zope.org/namespaces/tal"
-      xmlns:metal="http://xml.zope.org/namespaces/metal"
-      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-      lang="en"
-      metal:use-macro="context/main_template/macros/master"
-      i18n:domain="wcc.donation">
-<body>
+   xmlns:tal="http://xml.zope.org/namespaces/tal"
+   xmlns:metal="http://xml.zope.org/namespaces/metal"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+   lang="en"
+   metal:use-macro="context/main_template/macros/master"
+   i18n:domain="wcc.donation">
 
-<tal:comment tal:condition="nothing">
-    This is a sample view template. It will not be used for rendering the
-    content unless activated by creation of a view class with a matching name.
-    
-    Note that we're using Plone 4 macros. Replace them with Plone 3 macros
-    if needed.
-</tal:comment>
+   <head>
 
-<metal:main fill-slot="content-core">
-  <metal:content-core define-macro="content-core">
+       <metal:slot fill-slot="javascript_head_slot">
+            <script tal:define="navroot context/@@plone_portal_state/navigation_root_url"
+                tal:attributes="src string:${navroot}/++resource++wcc.donation/donate-en.js">
+            </script>
+       </metal:slot>
 
-    <tal:block repeat="widget view/widgets/values">
-        <div class="field" tal:condition="python:widget.__name__ not in ('IDublinCore.title', 'IDublinCore.description', 'title', 'description',)">
-            <label tal:content="widget/label" />
-            <br />
-            <div tal:content="structure widget/render" />
-        </div>
-    </tal:block>
+   </head>
+   <body>
 
-    <fieldset tal:repeat="group view/groups"
-              tal:attributes="id python:''.join((group.prefix, 'groups.', group.__name__)).replace('.', '-')">
-        <legend tal:content="group/label" />
-        <div class="field" tal:repeat="widget group/widgets/values">
-            <label tal:content="widget/label" />
-            <br />
-            <div tal:content="structure widget/render" />
-        </div>
-    </fieldset>
+      <metal:main fill-slot="content-core">
+      <metal:content-core define-macro="content-core">
 
+      <div tal:content="structure context/header_text">
+      </div>
 
-  </metal:content-core>
-</metal:main>
+      <form name="donation" action="https://secure.wp3.rbsworldpay.com/wcc/purchase" method="post">
+         <input type="hidden" name="instId" value="69331">
+         <input type="hidden" name="accId1" value="66447714">
+         <input type="hidden" name="accId2" value="66447716">
+         <input type="hidden" name="accId3" value="66447718">
+         <input type="hidden" name="accId4" value="66451620">
+         <input type="hidden" name="authMode" value="E">
+         <input type="hidden" name="cartId" value="">
+         <input type="hidden" name="testMode" value="0">
+         <input type="hidden" name="name" value="">
+         <input type="hidden" name="lang" value="en-GB">
+         <input type="hidden" name="MC_language" value="en">
+         <input type="hidden" name="futurePayType" value="regular">
+         <input type="hidden" name="option" value="0">
+         <input type="hidden" name="noLanguageMenu" value="yes">
+         <input type="hidden" name="startDelayUnit" value="1">
+         <input type="hidden" name="startDelayMult" value="1">
+         <input type="hidden" name="intervalMult" value="1">
+         <input type="hidden" name="cost" value="0">
+         <input type="hidden" name="amount" value="0">
+         <input type="hidden" name="noOfPayments" value="0">
+         <input type="hidden" name="intervalUnit" value="3">
+         <input type="hidden" name="MC_normalAmount" value="">
+         <input type="hidden" name="desc" value="Monthly donation for the WCC">
+         <table style="width:230px; height=20px; margin-left:0;">
+            <tbody><tr style="height:40px;">
+                  <td style="padding-right:20px">
+                     <label>
+                        <input name="MC_frequency" type="radio" value="monthly">
+                        Monthly gift</label>
+                  </td>
+                  <td><label>
+                        <input type="radio" name="MC_frequency" value="single">
+                        Single gift</label>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         <table style="width:400px; height=30px; margin-left:0;">
+            <tbody><tr valign="bottom" class="smaller">
+                  <td style="padding-right:20px">of
+                     <label><strong>
+                           <input type="radio" name="amountslist" onclick="resetOtherAmount()" value="20">
+                           20 </strong></label>
+                  </td>
+                  <td style="padding-right:20px"><strong>
+                        <label>
+                           <input type="radio" name="amountslist" onclick="resetOtherAmount()" value="50">
+                           50 </label>
+                  </strong></td>
+                  <td style="padding-right:20px"><strong>
+                        <label>
+                           <input type="radio" name="amountslist" onclick="resetOtherAmount()" value="100">
+                           100 </label>
+                  </strong></td>
+                  <td style="padding-right:20px"><strong>
+                        <label>
+                           <input type="radio" name="amountslist" onclick="resetOtherAmount()" value="500">
+                           500 </label>
+                  </strong></td>
+                  <td><strong>Other
+                        <input name="normalAmount" type="text" onchange="resetAmount();" onkeypress="return checkNumeric(event)" size="6">
+                  </strong></td>
+               </tr>
+            </tbody>
+         </table>
+         <br>
+         <table width="100%" height="200" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+               <tr class="smaller">
+                  <td width="30%">Choose your currency<br>
+                  </td>
+                  <td><select name="currency" id="currency" class="smaller">
+                        <option value="EUR" selected="">Euro</option>
+                        <option value="USD">US Dollar</option>
+                        <option value="CHF">Swiss Franc</option>
+                        <option value="GBP">Sterling</option>
+                     </select>
+                  </td>
+               </tr>
+               <tr class="smaller">
+                  <td>I would like my gift to go to:<br>
+                  </td>
+                  <td><p>
+                     <select name="MC_category" class="smaller">
+                          <option tal:repeat="item context/categories"
+                                  tal:attributes="value item/value"
+                                  tal:content="item/label"/>
+                     </select>
+                     </p>
+                  </td>
+               </tr>
+               <tr class="smaller">
+                  <td>Comments/special allocation:<br>
+                  </td>
+                  <td><input name="MC_allocation" type="text" size="40" class="smaller">
+                  </td>
+               </tr>
+               <tr class="smaller">
+                  <td>First name*:<br>
+                  </td>
+                  <td><input name="MC_firstname" type="text" size="30" class="smaller">
+                  </td>
+               </tr>
+               <tr class="smaller">
+                  <td>Last name*:<br>
+                  </td>
+                  <td><input name="MC_lastname" type="text" size="30" class="smaller">
+                  </td>
+               </tr>
+               <tr class="smaller">
+                  <td>E-mail*:<br>
+                  </td>
+                  <td><input type="text" name="email" size="30" class="smaller">
+                  </td>
+               </tr>
+            </tbody>
+        </table>
+        <hr/>
+         <font color="navy">
+            <input name="Submit" type="button" onclick="validate();" value="Submit">
+         </font>
+      </form>
+      <div tal:content="structure context/footer_text">
+      </div>
 
-</body>
+      </metal:content-core>
+      </metal:main>
+
+   </body>
 </html>
-
