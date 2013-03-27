@@ -30,6 +30,8 @@ setup(name='wcc.donation',
           'plone.namedfile [blobs]',
           'collective.grok',
           'collective.z3cform.datagridfield',
+          'wcc.featurable',
+          'wcc.carousel',
           # -*- Extra requirements: -*-
       ],
       extras_require={
