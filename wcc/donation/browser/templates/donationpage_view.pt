@@ -47,7 +47,7 @@
          <input type="hidden" name="intervalUnit" value="3">
          <input type="hidden" name="MC_normalAmount" value="">
          <input type="hidden" name="desc" value="Monthly donation for the WCC">
-         <table style="width:230px; height=20px; margin-left:0;">
+         <table style="height=20px; margin-left:0;">
             <tbody><tr style="height:40px;">
                   <td style="padding-right:20px">
                      <label>
@@ -61,9 +61,9 @@
                </tr>
             </tbody>
          </table>
-         <table style="width:400px; height=30px; margin-left:0;">
+         <table style="height=30px; margin-left:0;">
             <tbody><tr valign="bottom" class="smaller">
-                  <td style="padding-right:20px">of
+                  <td style="padding-right:20px">
                      <label><strong>
                            <input type="radio" name="amountslist" onclick="resetOtherAmount()" value="20">
                            20 </strong></label>
