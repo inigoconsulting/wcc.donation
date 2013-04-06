@@ -5,5 +5,13 @@
 
     <include package="plone.app.portlets" file="permissions.zcml"/>
     <!-- -*- extra stuff goes here -*- -->
+    <plone:portlet
+        name="wcc.donation.portlet.WCCDonationLinkPortlet"
+        interface=".wccdonationlinkportlet.IWCCDonationLinkPortlet"
+        assignment=".wccdonationlinkportlet.Assignment"
+        renderer=".wccdonationlinkportlet.Renderer"
+        addview=".wccdonationlinkportlet.AddForm"
+        editview=".wccdonationlinkportlet.EditForm"
+        />
 
 </configure>

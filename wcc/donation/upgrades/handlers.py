@@ -4,6 +4,15 @@ from wcc.donation.content.donationpage import IDonationPage
 # -*- extra stuff goes here -*- 
 
 
+@gs.upgradestep(title=u'Upgrade wcc.donation to 1003',
+                description=u'Upgrade wcc.donation to 1003',
+                source='1002', destination='1003',
+                sortkey=1, profile='wcc.donation:default')
+def to1003(context):
+    setup = getToolByName(context, 'portal_setup')
+    setup.runAllImportStepsFromProfile('profile-wcc.donation.upgrades:to1003')
+
+
 @gs.upgradestep(title=u'Upgrade wcc.donation to 1002',
                 description=u'Upgrade wcc.donation to 1002',
                 source='1', destination='1002',

@@ -1,0 +1,7 @@
+<div class="portletWCCDonationLinkPortlet donation-portlet"
+    i18n:domain="wcc.donation">
+    <a tal:define="navroot context/@@plone_portal_state/navigation_root_url"
+        tal:attributes="href view/data/url">
+        DONATE NOW
+    </a>
+</div>
