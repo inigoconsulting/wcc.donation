@@ -20,11 +20,11 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:96
 msgid "Choose your currency"
-msgstr ""
+msgstr "Devise du versement"
 
 #: ./browser/templates/donationpage_view.pt:119
 msgid "Comments/special allocation"
-msgstr ""
+msgstr "Remarques/affectation spécifique"
 
 #: ./content/donationpage.py:64
 msgid "Donation Categories"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:137
 msgid "E-mail"
-msgstr ""
+msgstr "Courriel"
 
 #: ./portlet/wccdonationlinkportlet.py:53
 msgid "Edit WCC Donation Link Portlet"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:125
 msgid "First name"
-msgstr ""
+msgstr "Prénom"
 
 #: ./content/donationpage.py:58
 msgid "Footer text"
@@ -70,15 +70,15 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:107
 msgid "I would like my gift to go to"
-msgstr ""
+msgstr "Je souhaite que mon don soit affecté à"
 
 #: ./browser/templates/donationpage_view.pt:131
 msgid "Last name"
-msgstr ""
+msgstr "Nom"
 
 #: ./browser/templates/donationpage_view.pt:55
 msgid "Monthly gift"
-msgstr ""
+msgstr "Don mensuel"
 
 #: ./content/donationpage.py:65
 msgid "One category per line"
@@ -86,19 +86,19 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:86
 msgid "Other"
-msgstr ""
+msgstr "Autre"
 
 #: ./browser/templates/donationpage_view.pt:59
 msgid "Single gift"
-msgstr ""
+msgstr "Don unique"
 
 #: ./browser/templates/donationpage_view.pt:102
 msgid "Sterling"
-msgstr ""
+msgstr "Livre Sterling"
 
 #: ./browser/templates/donationpage_view.pt:101
 msgid "Swiss Franc"
-msgstr ""
+msgstr "Franc Suisse"
 
 #: ./content/donationpage.py:53
 msgid "This text will appear above the donation form"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:100
 msgid "US Dollar"
-msgstr ""
+msgstr "Dollar US"
 
 #: ./portlet/wccdonationlinkportlet.py:33
 msgid "WCC Donation Link Portlet"
@@ -132,7 +132,7 @@ msgstr ""
 #. Default: "Submit"
 #: ./browser/templates/donationpage_view.pt:146
 msgid "submit_button"
-msgstr ""
+msgstr "Envoyer"
 
 #: ./setuphandlers.py:6
 msgid "wcc.donation import handler"
