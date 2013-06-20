@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-06 06:02+0000\n"
+"POT-Creation-Date: 2013-06-20 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,8 +57,16 @@ msgstr ""
 msgid "Header text"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:55
+msgid "Monthly gift"
+msgstr ""
+
 #: ./content/donationpage.py:65
 msgid "One category per line"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:59
+msgid "Single gift"
 msgstr ""
 
 #: ./content/donationpage.py:53

@@ -48,8 +48,16 @@ msgstr ""
 msgid "Header text"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:55
+msgid "Monthly gift"
+msgstr ""
+
 #: ./content/donationpage.py:65
 msgid "One category per line"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:59
+msgid "Single gift"
 msgstr ""
 
 #: ./content/donationpage.py:53
@@ -75,7 +83,7 @@ msgstr ""
 #. Default: "DONATE NOW"
 #: ./portlet/templates/wccdonationlinkportlet.pt:4
 msgid "donate_now"
-msgstr "HACER UNA DONACIÓN"
+msgstr ""
 
 #: ./setuphandlers.py:6
 msgid "wcc.donation import handler"
