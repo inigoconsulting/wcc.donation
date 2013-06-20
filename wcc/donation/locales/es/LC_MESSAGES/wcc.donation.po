@@ -20,11 +20,11 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:96
 msgid "Choose your currency"
-msgstr ""
+msgstr "Elija la moneda"
 
 #: ./browser/templates/donationpage_view.pt:119
 msgid "Comments/special allocation"
-msgstr ""
+msgstr "Comentarios / destino especia"
 
 #: ./content/donationpage.py:64
 msgid "Donation Categories"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:137
 msgid "E-mail"
-msgstr ""
+msgstr "Dirección electrónical"
 
 #: ./portlet/wccdonationlinkportlet.py:53
 msgid "Edit WCC Donation Link Portlet"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:125
 msgid "First name"
-msgstr ""
+msgstr "Nombre"
 
 #: ./content/donationpage.py:58
 msgid "Footer text"
@@ -70,15 +70,15 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:107
 msgid "I would like my gift to go to"
-msgstr ""
+msgstr "Deseo que mi contribución vaya dirigida a"
 
 #: ./browser/templates/donationpage_view.pt:131
 msgid "Last name"
-msgstr ""
+msgstr "Apellido"
 
 #: ./browser/templates/donationpage_view.pt:55
 msgid "Monthly gift"
-msgstr ""
+msgstr "contribución mensual"
 
 #: ./content/donationpage.py:65
 msgid "One category per line"
@@ -86,11 +86,11 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:86
 msgid "Other"
-msgstr ""
+msgstr "Otras"
 
 #: ./browser/templates/donationpage_view.pt:59
 msgid "Single gift"
-msgstr ""
+msgstr "contribución única"
 
 #: ./browser/templates/donationpage_view.pt:102
 msgid "Sterling"
@@ -132,7 +132,7 @@ msgstr ""
 #. Default: "Submit"
 #: ./browser/templates/donationpage_view.pt:146
 msgid "submit_button"
-msgstr ""
+msgstr "Enviar"
 
 #: ./setuphandlers.py:6
 msgid "wcc.donation import handler"
