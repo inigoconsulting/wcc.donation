@@ -18,6 +18,14 @@ msgstr ""
 msgid "Add WCC Donation Link Portlet"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:96
+msgid "Choose your currency"
+msgstr "Währung"
+
+#: ./browser/templates/donationpage_view.pt:119
+msgid "Comments/special allocation"
+msgstr "Kommentar /andere Verwendung"
+
 #: ./content/donationpage.py:64
 msgid "Donation Categories"
 msgstr ""
@@ -32,9 +40,21 @@ msgstr ""
 msgid "DonationPage"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:137
+msgid "E-mail"
+msgstr ""
+
 #: ./portlet/wccdonationlinkportlet.py:53
 msgid "Edit WCC Donation Link Portlet"
 msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:99
+msgid "Euro"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:125
+msgid "First name"
+msgstr "Vorname"
 
 #: ./content/donationpage.py:58
 msgid "Footer text"
@@ -48,17 +68,37 @@ msgstr ""
 msgid "Header text"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:107
+msgid "I would like my gift to go to"
+msgstr "Ich möchte, dass meine Spende wie folgt verwendet wird"
+
+#: ./browser/templates/donationpage_view.pt:131
+msgid "Last name"
+msgstr "Nachname"
+
 #: ./browser/templates/donationpage_view.pt:55
 msgid "Monthly gift"
-msgstr ""
+msgstr "monatlichen Spende"
 
 #: ./content/donationpage.py:65
 msgid "One category per line"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:86
+msgid "Other"
+msgstr "oder"
+
 #: ./browser/templates/donationpage_view.pt:59
 msgid "Single gift"
-msgstr ""
+msgstr "einmaligen Spende"
+
+#: ./browser/templates/donationpage_view.pt:102
+msgid "Sterling"
+msgstr "Pfund Sterling"
+
+#: ./browser/templates/donationpage_view.pt:101
+msgid "Swiss Franc"
+msgstr "Schweizer Franken"
 
 #: ./content/donationpage.py:53
 msgid "This text will appear above the donation form"
@@ -76,6 +116,10 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:100
+msgid "US Dollar"
+msgstr ""
+
 #: ./portlet/wccdonationlinkportlet.py:33
 msgid "WCC Donation Link Portlet"
 msgstr ""
@@ -84,6 +128,11 @@ msgstr ""
 #: ./portlet/templates/wccdonationlinkportlet.pt:4
 msgid "donate_now"
 msgstr ""
+
+#. Default: "Submit"
+#: ./browser/templates/donationpage_view.pt:146
+msgid "submit_button"
+msgstr "Senden"
 
 #: ./setuphandlers.py:6
 msgid "wcc.donation import handler"

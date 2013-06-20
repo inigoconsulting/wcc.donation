@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-06-20 08:20+0000\n"
+"POT-Creation-Date: 2013-06-20 16:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,14 @@ msgstr ""
 msgid "Add WCC Donation Link Portlet"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:96
+msgid "Choose your currency"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:119
+msgid "Comments/special allocation"
+msgstr ""
+
 #: ./content/donationpage.py:64
 msgid "Donation Categories"
 msgstr ""
@@ -41,8 +49,20 @@ msgstr ""
 msgid "DonationPage"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:137
+msgid "E-mail"
+msgstr ""
+
 #: ./portlet/wccdonationlinkportlet.py:53
 msgid "Edit WCC Donation Link Portlet"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:99
+msgid "Euro"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:125
+msgid "First name"
 msgstr ""
 
 #: ./content/donationpage.py:58
@@ -57,6 +77,14 @@ msgstr ""
 msgid "Header text"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:107
+msgid "I would like my gift to go to"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:131
+msgid "Last name"
+msgstr ""
+
 #: ./browser/templates/donationpage_view.pt:55
 msgid "Monthly gift"
 msgstr ""
@@ -65,8 +93,20 @@ msgstr ""
 msgid "One category per line"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:86
+msgid "Other"
+msgstr ""
+
 #: ./browser/templates/donationpage_view.pt:59
 msgid "Single gift"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:102
+msgid "Sterling"
+msgstr ""
+
+#: ./browser/templates/donationpage_view.pt:101
+msgid "Swiss Franc"
 msgstr ""
 
 #: ./content/donationpage.py:53
@@ -85,6 +125,10 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
+#: ./browser/templates/donationpage_view.pt:100
+msgid "US Dollar"
+msgstr ""
+
 #: ./portlet/wccdonationlinkportlet.py:33
 msgid "WCC Donation Link Portlet"
 msgstr ""
@@ -92,6 +136,11 @@ msgstr ""
 #. Default: "DONATE NOW"
 #: ./portlet/templates/wccdonationlinkportlet.pt:4
 msgid "donate_now"
+msgstr ""
+
+#. Default: "Submit"
+#: ./browser/templates/donationpage_view.pt:146
+msgid "submit_button"
 msgstr ""
 
 #: ./setuphandlers.py:6

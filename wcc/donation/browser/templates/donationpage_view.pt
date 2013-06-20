@@ -83,7 +83,7 @@
                            <input type="radio" name="amountslist" onclick="resetOtherAmount()" value="500">
                            500 </label>
                   </strong></td>
-                  <td><strong>Other
+                  <td><strong><span i18n:translate="">Other</span>
                         <input name="normalAmount" type="text" onchange="resetAmount();" onkeypress="return checkNumeric(event)" size="6">
                   </strong></td>
                </tr>
@@ -93,18 +93,18 @@
          <table width="100%" height="200" border="0" cellpadding="0" cellspacing="0">
             <tbody>
                <tr class="smaller">
-                  <td width="30%">Choose your currency<br>
+                  <td width="30%"><span i18n:translate="">Choose your currency</span><br>
                   </td>
                   <td><select name="currency" id="currency" class="smaller">
-                        <option value="EUR" selected="">Euro</option>
-                        <option value="USD">US Dollar</option>
-                        <option value="CHF">Swiss Franc</option>
-                        <option value="GBP">Sterling</option>
+                        <option i18n:translate="" value="EUR" selected="">Euro</option>
+                        <option i18n:translate="" value="USD">US Dollar</option>
+                        <option i18n:translate="" value="CHF">Swiss Franc</option>
+                        <option i18n:translate="" value="GBP">Sterling</option>
                      </select>
                   </td>
                </tr>
                <tr class="smaller">
-                  <td>I would like my gift to go to:<br>
+                  <td><span i18n:translate="">I would like my gift to go to</span>:<br>
                   </td>
                   <td><p>
                      <select name="MC_category" class="smaller">
@@ -116,25 +116,25 @@
                   </td>
                </tr>
                <tr class="smaller">
-                  <td>Comments/special allocation:<br>
+                  <td><span i18n:translate="">Comments/special allocation</span>:<br>
                   </td>
                   <td><input name="MC_allocation" type="text" size="40" class="smaller">
                   </td>
                </tr>
                <tr class="smaller">
-                  <td>First name*:<br>
+                  <td><span i18n:translate="">First name</span>*:<br>
                   </td>
                   <td><input name="MC_firstname" type="text" size="30" class="smaller">
                   </td>
                </tr>
                <tr class="smaller">
-                  <td>Last name*:<br>
+                  <td><span i18n:translate="">Last name</span>*:<br>
                   </td>
                   <td><input name="MC_lastname" type="text" size="30" class="smaller">
                   </td>
                </tr>
                <tr class="smaller">
-                  <td>E-mail*:<br>
+                  <td><span i18n:translate="">E-mail</span>*:<br>
                   </td>
                   <td><input type="text" name="email" size="30" class="smaller">
                   </td>
@@ -143,7 +143,7 @@
         </table>
         <hr/>
          <font color="navy">
-            <input name="Submit" type="button" onclick="validate();" value="Submit">
+            <input i18n:attributes="value submit_button" name="Submit" type="button" onclick="validate();" value="Submit">
          </font>
       </form>
       <div tal:content="structure context/footer_text">
