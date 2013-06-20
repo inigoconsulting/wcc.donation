@@ -50,7 +50,7 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:99
 msgid "Euro"
-msgstr ""
+msgstr "Euros"
 
 #: ./browser/templates/donationpage_view.pt:125
 msgid "First name"
@@ -94,11 +94,11 @@ msgstr "contribución única"
 
 #: ./browser/templates/donationpage_view.pt:102
 msgid "Sterling"
-msgstr ""
+msgstr "Libras Esterlinas"
 
 #: ./browser/templates/donationpage_view.pt:101
 msgid "Swiss Franc"
-msgstr ""
+msgstr "Francos Suizos"
 
 #: ./content/donationpage.py:53
 msgid "This text will appear above the donation form"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:100
 msgid "US Dollar"
-msgstr ""
+msgstr "Dólares Estadounidenses"
 
 #: ./portlet/wccdonationlinkportlet.py:33
 msgid "WCC Donation Link Portlet"
