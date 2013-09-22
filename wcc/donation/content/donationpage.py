@@ -21,6 +21,9 @@ from plone.formwidget.contenttree import ObjPathSourceBinder
 from wcc.donation import MessageFactory as _
 from collective.z3cform.datagridfield import DataGridFieldFactory, DictRow
 from zope.interface import Interface
+from zope.i18n import translate
+from zope.component import getMultiAdapter
+
 
 class IDonationCategory(Interface):
     
@@ -30,18 +33,6 @@ class IDonationCategory(Interface):
 
 # Interface class; used to define content-type schema.
 
-DONATION_DEFAULT=[
-        {"value": "MostNeeded", "label": "Where it's most needed"},
-        {"value": "Assembly", "label": "WCC 10th Assembly"},
-        {"value": "EcumenicalWaterNetwork", "label": "Ecumenical Water Network"},
-        {"value": "EAPPI", "label": "Accompaniers in Palestine and Israel (EAPPI)"},
-        {"value": "Study", "label": "Ecumenical study and research - Bossey"},
-        {"value": "Church", "label": "Church relationships and Christian witness"},
-        {"value": "Interreligious", "label": "Inter-religious dialogue"},
-        {"value": "Peace", "label": "Peace and reconciliation"},
-        {"value": "Development", "label": "Development and justice"},
-        {"value": "HIV", "label": "HIV/AIDS initiative in Africa"},
-]
 
 class IDonationPage(form.Schema, IImageScaleTraversable):
     """
@@ -64,4 +55,22 @@ class IDonationPage(form.Schema, IImageScaleTraversable):
     categories = schema.List(title=_(u'Donation Categories'),
             description=_(u'One category per line'),
             value_type=DictRow(schema=IDonationCategory),
-            default=DONATION_DEFAULT)
+            )
+
+@form.default_value(field=IDonationPage['categories'])
+def default_category(data):
+    DONATION_DEFAULT = [
+            {"value": "MostNeeded", "label": _(u"Where it's most needed")},
+            {"value": "Assembly", "label": _(u"WCC 10th Assembly")},
+            {"value": "EcumenicalWaterNetwork", "label": _(u"Ecumenical Water Network")},
+            {"value": "EAPPI", "label": _(u"Accompaniers in Palestine and Israel(EAPPI)")},
+            {"value": "Study", "label": _(u"Ecumenical study and research - Bossey")},
+            {"value": "Church", "label": _(u"Church relationships and Christian witness")},
+            {"value": "Interreligious", "label": _(u"Inter-religious dialogue")},
+            {"value": "Peace", "label": _(u"Peace and reconciliation")},
+            {"value": "Development", "label": _(u"Development and justice")},
+            {"value": "HIV", "label": _(u"HIV/AIDS initiative in Africa")},]
+    for i in DONATION_DEFAULT:
+        i.update(label=translate(i['label'],
+                 target_language=data.context.Language()))
+    return DONATION_DEFAULT

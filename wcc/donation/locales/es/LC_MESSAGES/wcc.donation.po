@@ -14,6 +14,10 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
+#: ./content/donationpage.py:66
+msgid "Accompaniers in Palestine and Israel(EAPPI)"
+msgstr "Acompañantes en Palestina e Israel"
+
 #: ./portlet/wccdonationlinkportlet.py:45
 msgid "Add WCC Donation Link Portlet"
 msgstr ""
@@ -22,11 +26,19 @@ msgstr ""
 msgid "Choose your currency"
 msgstr "Elija la moneda"
 
+#: ./content/donationpage.py:68
+msgid "Church relationships and Christian witness"
+msgstr "Relaciones con las iglesias y testimonio cristiano"
+
 #: ./browser/templates/donationpage_view.pt:119
 msgid "Comments/special allocation"
 msgstr "Comentarios / destino especia"
 
-#: ./content/donationpage.py:64
+#: ./content/donationpage.py:71
+msgid "Development and justice"
+msgstr "Desarrollo y justicia"
+
+#: ./content/donationpage.py:55
 msgid "Donation Categories"
 msgstr ""
 
@@ -44,6 +56,14 @@ msgstr ""
 msgid "E-mail"
 msgstr "Dirección electrónical"
 
+#: ./content/donationpage.py:65
+msgid "Ecumenical Water Network"
+msgstr "Red Ecuménica del Agua"
+
+#: ./content/donationpage.py:67
+msgid "Ecumenical study and research - Bossey"
+msgstr "Estudio e investigación ecuménicas - Bossey"
+
 #: ./portlet/wccdonationlinkportlet.py:53
 msgid "Edit WCC Donation Link Portlet"
 msgstr ""
@@ -56,21 +76,29 @@ msgstr "Euros"
 msgid "First name"
 msgstr "Nombre"
 
-#: ./content/donationpage.py:58
+#: ./content/donationpage.py:49
 msgid "Footer text"
 msgstr ""
 
-#: ./content/donationpage.py:27
+#: ./content/donationpage.py:30
 msgid "Form Value"
 msgstr ""
 
-#: ./content/donationpage.py:52
+#: ./content/donationpage.py:72
+msgid "HIV/AIDS initiative in Africa"
+msgstr "Programa VIH/SIDA en África"
+
+#: ./content/donationpage.py:43
 msgid "Header text"
 msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:107
 msgid "I would like my gift to go to"
 msgstr "Deseo que mi contribución vaya dirigida a"
+
+#: ./content/donationpage.py:69
+msgid "Inter-religious dialogue"
+msgstr "Diálogo interreligioso"
 
 #: ./browser/templates/donationpage_view.pt:131
 msgid "Last name"
@@ -80,13 +108,17 @@ msgstr "Apellido"
 msgid "Monthly gift"
 msgstr "contribución mensual"
 
-#: ./content/donationpage.py:65
+#: ./content/donationpage.py:56
 msgid "One category per line"
 msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:86
 msgid "Other"
 msgstr "Otras"
+
+#: ./content/donationpage.py:70
+msgid "Peace and reconciliation"
+msgstr "Paz y reconciliación"
 
 #: ./browser/templates/donationpage_view.pt:59
 msgid "Single gift"
@@ -100,15 +132,15 @@ msgstr "Libras Esterlinas"
 msgid "Swiss Franc"
 msgstr "Francos Suizos"
 
-#: ./content/donationpage.py:53
+#: ./content/donationpage.py:44
 msgid "This text will appear above the donation form"
 msgstr ""
 
-#: ./content/donationpage.py:59
+#: ./content/donationpage.py:50
 msgid "This text will appear beneath the donation form"
 msgstr ""
 
-#: ./content/donationpage.py:28
+#: ./content/donationpage.py:31
 msgid "Title/Label"
 msgstr ""
 
@@ -120,9 +152,17 @@ msgstr ""
 msgid "US Dollar"
 msgstr "Dólares Estadounidenses"
 
+#: ./content/donationpage.py:64
+msgid "WCC 10th Assembly"
+msgstr "X Asamblea del CMI"
+
 #: ./portlet/wccdonationlinkportlet.py:33
 msgid "WCC Donation Link Portlet"
 msgstr ""
+
+#: ./content/donationpage.py:63
+msgid "Where it's most needed"
+msgstr "Donde sea más necesaria"
 
 #. Default: "DONATE NOW"
 #: ./portlet/templates/wccdonationlinkportlet.pt:4

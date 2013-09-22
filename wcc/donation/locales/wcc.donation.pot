@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-06-20 16:31+0000\n"
+"POT-Creation-Date: 2013-09-22 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,6 +23,10 @@ msgstr ""
 msgid ""
 msgstr ""
 
+#: ./content/donationpage.py:66
+msgid "Accompaniers in Palestine and Israel(EAPPI)"
+msgstr ""
+
 #: ./portlet/wccdonationlinkportlet.py:45
 msgid "Add WCC Donation Link Portlet"
 msgstr ""
@@ -31,11 +35,19 @@ msgstr ""
 msgid "Choose your currency"
 msgstr ""
 
+#: ./content/donationpage.py:68
+msgid "Church relationships and Christian witness"
+msgstr ""
+
 #: ./browser/templates/donationpage_view.pt:119
 msgid "Comments/special allocation"
 msgstr ""
 
-#: ./content/donationpage.py:64
+#: ./content/donationpage.py:71
+msgid "Development and justice"
+msgstr ""
+
+#: ./content/donationpage.py:55
 msgid "Donation Categories"
 msgstr ""
 
@@ -53,6 +65,14 @@ msgstr ""
 msgid "E-mail"
 msgstr ""
 
+#: ./content/donationpage.py:65
+msgid "Ecumenical Water Network"
+msgstr ""
+
+#: ./content/donationpage.py:67
+msgid "Ecumenical study and research - Bossey"
+msgstr ""
+
 #: ./portlet/wccdonationlinkportlet.py:53
 msgid "Edit WCC Donation Link Portlet"
 msgstr ""
@@ -65,20 +85,28 @@ msgstr ""
 msgid "First name"
 msgstr ""
 
-#: ./content/donationpage.py:58
+#: ./content/donationpage.py:49
 msgid "Footer text"
 msgstr ""
 
-#: ./content/donationpage.py:27
+#: ./content/donationpage.py:30
 msgid "Form Value"
 msgstr ""
 
-#: ./content/donationpage.py:52
+#: ./content/donationpage.py:72
+msgid "HIV/AIDS initiative in Africa"
+msgstr ""
+
+#: ./content/donationpage.py:43
 msgid "Header text"
 msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:107
 msgid "I would like my gift to go to"
+msgstr ""
+
+#: ./content/donationpage.py:69
+msgid "Inter-religious dialogue"
 msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:131
@@ -89,12 +117,16 @@ msgstr ""
 msgid "Monthly gift"
 msgstr ""
 
-#: ./content/donationpage.py:65
+#: ./content/donationpage.py:56
 msgid "One category per line"
 msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:86
 msgid "Other"
+msgstr ""
+
+#: ./content/donationpage.py:70
+msgid "Peace and reconciliation"
 msgstr ""
 
 #: ./browser/templates/donationpage_view.pt:59
@@ -109,15 +141,15 @@ msgstr ""
 msgid "Swiss Franc"
 msgstr ""
 
-#: ./content/donationpage.py:53
+#: ./content/donationpage.py:44
 msgid "This text will appear above the donation form"
 msgstr ""
 
-#: ./content/donationpage.py:59
+#: ./content/donationpage.py:50
 msgid "This text will appear beneath the donation form"
 msgstr ""
 
-#: ./content/donationpage.py:28
+#: ./content/donationpage.py:31
 msgid "Title/Label"
 msgstr ""
 
@@ -129,8 +161,16 @@ msgstr ""
 msgid "US Dollar"
 msgstr ""
 
+#: ./content/donationpage.py:64
+msgid "WCC 10th Assembly"
+msgstr ""
+
 #: ./portlet/wccdonationlinkportlet.py:33
 msgid "WCC Donation Link Portlet"
+msgstr ""
+
+#: ./content/donationpage.py:63
+msgid "Where it's most needed"
 msgstr ""
 
 #. Default: "DONATE NOW"
