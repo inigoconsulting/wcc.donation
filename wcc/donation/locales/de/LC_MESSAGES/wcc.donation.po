@@ -167,7 +167,7 @@ msgstr "Dort, wo sie am dringendsten benötigt wird"
 #. Default: "DONATE NOW"
 #: ./portlet/templates/wccdonationlinkportlet.pt:4
 msgid "donate_now"
-msgstr "Spenden"
+msgstr "SPENDEN"
 
 #. Default: "Submit"
 #: ./browser/templates/donationpage_view.pt:146
