@@ -14,7 +14,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#: ./content/donationpage.py:63
+#: ./content/donationpage.py:66
 msgid "Accompaniers in Palestine and Israel(EAPPI)"
 msgstr "Begleiter in Palästina und Israel"
 
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Choose your currency"
 msgstr "Währung"
 
-#: ./content/donationpage.py:65
+#: ./content/donationpage.py:68
 msgid "Church relationships and Christian witness"
 msgstr "Zwischenkirchliche Beziehungen/christliches Zeugnis"
 
@@ -34,11 +34,11 @@ msgstr "Zwischenkirchliche Beziehungen/christliches Zeugnis"
 msgid "Comments/special allocation"
 msgstr "Kommentar /andere Verwendung"
 
-#: ./content/donationpage.py:68
+#: ./content/donationpage.py:71
 msgid "Development and justice"
 msgstr "Entwicklung und Gerechtigkeit"
 
-#: ./content/donationpage.py:52
+#: ./content/donationpage.py:55
 msgid "Donation Categories"
 msgstr ""
 
@@ -56,11 +56,11 @@ msgstr ""
 msgid "E-mail"
 msgstr ""
 
-#: ./content/donationpage.py:62
+#: ./content/donationpage.py:65
 msgid "Ecumenical Water Network"
 msgstr "Ökumenisches Wassernetzwerk"
 
-#: ./content/donationpage.py:64
+#: ./content/donationpage.py:67
 msgid "Ecumenical study and research - Bossey"
 msgstr "Ökumenische Studien und Forschung - Bossey"
 
@@ -76,19 +76,19 @@ msgstr ""
 msgid "First name"
 msgstr "Vorname"
 
-#: ./content/donationpage.py:46
+#: ./content/donationpage.py:49
 msgid "Footer text"
 msgstr ""
 
-#: ./content/donationpage.py:27
+#: ./content/donationpage.py:30
 msgid "Form Value"
 msgstr ""
 
-#: ./content/donationpage.py:69
+#: ./content/donationpage.py:72
 msgid "HIV/AIDS initiative in Africa"
 msgstr "HIV/AIDS-Initiative in Afrika"
 
-#: ./content/donationpage.py:40
+#: ./content/donationpage.py:43
 msgid "Header text"
 msgstr ""
 
@@ -96,7 +96,7 @@ msgstr ""
 msgid "I would like my gift to go to"
 msgstr "Ich möchte, dass meine Spende wie folgt verwendet wird"
 
-#: ./content/donationpage.py:66
+#: ./content/donationpage.py:69
 msgid "Inter-religious dialogue"
 msgstr "Interreligiöser Dialog"
 
@@ -108,7 +108,7 @@ msgstr "Nachname"
 msgid "Monthly gift"
 msgstr "monatlichen Spende"
 
-#: ./content/donationpage.py:53
+#: ./content/donationpage.py:56
 msgid "One category per line"
 msgstr ""
 
@@ -116,7 +116,7 @@ msgstr ""
 msgid "Other"
 msgstr "oder"
 
-#: ./content/donationpage.py:67
+#: ./content/donationpage.py:70
 msgid "Peace and reconciliation"
 msgstr "Frieden und Versöhnung"
 
@@ -132,15 +132,15 @@ msgstr "Pfund Sterling"
 msgid "Swiss Franc"
 msgstr "Schweizer Franken"
 
-#: ./content/donationpage.py:41
+#: ./content/donationpage.py:44
 msgid "This text will appear above the donation form"
 msgstr ""
 
-#: ./content/donationpage.py:47
+#: ./content/donationpage.py:50
 msgid "This text will appear beneath the donation form"
 msgstr ""
 
-#: ./content/donationpage.py:28
+#: ./content/donationpage.py:31
 msgid "Title/Label"
 msgstr ""
 
@@ -152,7 +152,7 @@ msgstr ""
 msgid "US Dollar"
 msgstr ""
 
-#: ./content/donationpage.py:61
+#: ./content/donationpage.py:64
 msgid "WCC 10th Assembly"
 msgstr "10. ÖRK-Vollversammlung"
 
@@ -160,7 +160,7 @@ msgstr "10. ÖRK-Vollversammlung"
 msgid "WCC Donation Link Portlet"
 msgstr ""
 
-#: ./content/donationpage.py:60
+#: ./content/donationpage.py:63
 msgid "Where it's most needed"
 msgstr "Dort, wo sie am dringendsten benötigt wird"
 
